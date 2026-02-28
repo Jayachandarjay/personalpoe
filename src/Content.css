@@ -1,0 +1,73 @@
+
+.box{
+    border: 2px solid black;
+    border-radius: 25%;
+    width:30vh;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+}
+.forminput{
+        display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#inputcolor{
+    background-color: white;
+    border: none;
+    outline: none;
+    height: 3vh;
+    border-bottom: 2px solid black;
+    margin: 5% 5% 5% 5%;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.Listvalue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#colorchange{
+   /* display:none; */
+   visibility: hidden;
+
+}
+
+#callender{
+    background-color: goldenrod;
+    height: 30vh;
+    width: 30vh;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    flex-direction: row;
+
+}
+#dateval{
+
+    height: 4vh;
+    width: 4vh;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+}
+#webs{
+    display: none;
+}
+button{
+    height: 12%;
+}

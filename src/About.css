@@ -1,0 +1,89 @@
+.About{
+     width: 1500px;
+    max-width: 1500px;
+    height: 520px;
+    border:3px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Form_info{
+     width: 400px;
+    max-width: 700px;
+    height: 520px;
+    display: flex;
+   
+    align-items: center;
+    flex-direction:column;
+    border: 1px solid aqua;
+}
+.Form_info input{
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid aqua;
+    background-color: black;
+    width: 60%;
+    height: 10%;
+    color: aliceblue;
+    font-size: large;
+    margin: 20px;
+    gap: 20px;
+}
+.Form_info input:hover{
+ box-shadow: 0 0 9px aqua;
+ border: none;
+ border-bottom: 2px solid aqua;
+}
+#submit{
+    transition-duration: 1s;
+     width: 30%;
+    height: 8%;
+        background-color: aqua;
+        color: beige;
+       border: none;
+        border-radius: 14%;
+        font-size: large;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#submit:hover{
+        box-shadow: 0 0 9px white;
+}
+textarea{
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid aqua;
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    margin: 20px;
+    gap: 20px;
+    width: 60%;
+    height: 40%;
+}
+.Form_info input:active{
+    border:none;
+}
+textarea :hover{
+     box-shadow: 0 0 9px aqua;
+ border: none;
+ border-bottom: 2px solid aqua;
+}
+.Feedbacks{
+    border: 1px solid aqua;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.Feedbacks h3{
+     color: aliceblue;
+}
+.Feedbacks button{
+    border: none;
+    border-radius: 15%;
+    background-color: aqua;
+    width: 7em;    
+}
