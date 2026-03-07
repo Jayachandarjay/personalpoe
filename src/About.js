@@ -53,7 +53,7 @@ console.error(error);
           <label htmlFor="information"></label>
           <textarea id="information"  placeholder='enter context' required value={text} onChange={(e)=>{settext(e.target.value)}}/>
           <button id='submit' type='submit'>Submit</button>
-          </form> ):(<div className="Feedbacks"><h3>Application sent successfully!</h3><button onClick={feedback}>close</button></div>)
+          </form> ):(<div className="Feedbacks"><h3>Message sent successfully!</h3><button onClick={feedback}>close</button></div>)
 }     
     </div>
   )
